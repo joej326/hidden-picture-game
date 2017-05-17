@@ -5,7 +5,7 @@ $(document).ready(function(){
 var header = $('.header');
 var red = $('.red');
 
-red.on('mouseenter',function(){
+red.on('mouseover',function(){
   TweenMax.to(this,3, {
     left:200,
     bottom: 200,
