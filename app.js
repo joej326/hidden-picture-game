@@ -6,7 +6,7 @@ var header = $('.header');
 var red = $('.red');
 
 red.on('mouseenter',function(){
-  alert('hey');
+  console.log('hey');
   TweenMax.to(this,3, {
     left:200,
     bottom: 200,
