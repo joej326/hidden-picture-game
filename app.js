@@ -13,7 +13,7 @@ red.on('mouseenter',function(){
   });
 });
 
-red.on('vmouseover',function(){
+red.on('vmousemove',function(){
   TweenMax.to(this,3, {
     left:200,
     bottom: 200,
